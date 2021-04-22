@@ -1,0 +1,409 @@
+
+/* Start Global Rules */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-ox-sizing: border-box;
+    box-sizing: border-box;
+
+ }
+
+  /* End Global Rules */
+
+/* ..................... Start Header ..........................*/
+
+  header {
+    background-image: url(../images/crowds-of-people-crossing-street-on-zebra-crossing-in-new-york--usa-1161240357-8611563635fb4c9cb95b0cb66c34b85e.jpg);
+    position: relative;
+  }
+  header .head-layout{
+    width: 100%;
+    height: 100%;
+    background-color: #3f3c3c8c;
+  }
+
+  /* Start navbar */
+
+  header nav {
+      color: white;
+      overflow: hidden;
+  }
+  header nav h2 {
+      float: left;
+      text-transform: uppercase;
+      margin-top: 30px;
+  }
+  header nav ul{
+      list-style: none;
+      padding-left: 0;
+      overflow: hidden;
+      float: right;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  header nav ul li{
+      float: left;
+      margin: 15px;
+  }
+  header nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  header nav ul li.active a,
+  header nav ul li a:hover{
+    color: #19bd9b;
+
+  }
+
+  header nav ul li.active,
+  header nav ul li:hover {
+    border-bottom: 2px solid #2ecc71;
+  }
+
+/* ENd Navbar */
+
+/* Start Slider */
+
+header .bx-wrapper {
+  box-shadow: none;
+  border: 0;
+  background: none;
+  text-align: center;
+}
+ header .layout h2{
+   color: white;
+   font-size: 50px;
+   margin-bottom: 20px;
+ }
+ header .layout h2 span{
+   color: #19bd9b;
+ }
+ header .layout p {
+   font-size: 20px;
+   color: white;
+ }
+
+ /* End Slider */
+
+/* ..................... End Header ..........................*/
+
+/* Start Servcies */
+
+.servcies {
+  padding: 80px 20px 40px;
+}
+.servcies h2{
+  font-size: 35px;
+  font-weight: normal;
+}
+.servcies .item{
+  float: left;
+  width: 30.333%;
+  margin-right: 3%;
+  margin-bottom: 20px;
+}
+.servcies .item i{
+  color: #19bd9b;
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+.servcies .item .info{
+  float: left;
+  width: 75%;
+}
+.servcies .item .info h2{
+  color: #7f7e7e;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.servcies .item .info p{
+  color: #9e9797;
+  font-size: 17px;
+}
+
+/* End Servcies */
+
+/* Start Our-Team */
+
+.container hr {
+  margin-bottom: 100px;
+}
+section.our-team {
+  margin-bottom: 100px;
+}
+section.our-team .team:first-child {
+  float:left;
+  width: 30%;
+}
+section.our-team .team:first-child h2{
+  font-size: 35px;
+  margin:0 0 35px;
+  font-weight: normal;
+}
+section.our-team .team:first-child p{
+  color: #9e9797;
+  font-size: 17px;
+  line-height: 1.7;
+} 
+section.our-team .team:not(:first-child){
+  margin-left: 2%;
+  margin-top: 20px;
+  float: left;
+  width: 15.5%;
+  height: 165px;
+  border: 1px solid #EEE;
+  border-radius: 4%;
+  position: relative;
+  transition: all 1.5s ease-in-out;
+
+}
+section.our-team .team:not(:first-child) .overlay{
+  background-color: rgba(48, 178, 150, 0.747);
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  display: none;
+}
+section.our-team .team:not(:first-child):hover .overlay{
+  display: block;
+}
+section.our-team .team:not(:first-child) img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+/* End Our-Team */
+
+/* Start Testmonials */
+
+section.testim {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/img1.png);
+  position: relative;
+}
+section.testim .t-layout {
+  color: white;
+  background-color: #252121ba;
+  text-align: center;
+  
+}
+section.testim .t-layout h2{
+  padding-top: 100px;
+  font-size: 36px
+}
+section.testim .t-layout q{
+  display: block;
+  padding-top: 50px;
+  line-height: 1.9;
+  color: #b5b5b5;
+}
+section.testim .t-layout p{
+  padding-top: 30px;
+  font-size: 20px;
+  color: #19bd9b;
+}
+
+/* End Testmonials */
+
+/* Start Project */
+
+section.project h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+section.project ul{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  float: left;
+  overflow: hidden;
+  
+}
+section.project ul li {
+  float: left;
+  margin-right: 5px;
+  padding: 15px;
+  border: 1px solid #DDD;
+  border-radius: 7%;
+  font-size: 19px;
+  color: #948c8c;
+}
+section.project ul li.active{
+  background-color: #19bd9b;
+  color: #ffebeb;
+}
+section.project ul li:hover{
+  background-color: #19bd9b;
+  color: #ffebeb;
+}
+section.project .row div{
+  float: left;
+  width: 31.333%;
+  height: 255px;
+  margin-bottom: 20px;
+  position: relative;
+}
+section.project .row div .over{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(48, 178, 150, 0.747);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+section.project .row div .over-active {
+  display: block;
+}
+section.project .row div .over span {
+  position: absolute;
+  left: 135px;
+  top: 114px;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
+section.project .row div .over i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+}
+section.project .row div:hover .over{
+  display: block;
+}
+section.project .row div img{
+  width: 100%;
+  height: 100%;
+}
+section.project .row div:nth-of-type(2){
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+/* End Project */
+
+/* Start Footer */
+
+footer{
+  background-color:#232323;
+  color: #c6c6c6;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+/* Col number1 */
+footer .col{
+  width: 25%;
+  float: left;
+}
+footer .col h2{
+  color: white;
+}
+footer .col p{
+  line-height: 1.4;
+  margin-bottom: 30px
+}
+footer .col i{
+  border: 1px solid #9c9090;
+  padding: 10px;
+  margin-right: 7px;
+}
+/* Col Number 1 */
+
+/* Col Number 2 */
+footer .col span{
+  padding: 10px;
+  border: 1px solid #9c9090;
+  line-height: 3.4;
+}
+/* Col Number 2 */
+
+/* Col Number 3 */
+footer .col .row{
+  margin-bottom: 15px;
+}
+footer .col .row .image{
+  width: 25%;
+  float: left;
+  height: 75px;
+}
+footer .col .row .image img{
+  width: 100%;
+  height: 100%;
+}
+footer .col .row .inform{
+  width: 70%;
+  float: left;
+  margin-top: 6px;
+  margin-left: 5%;
+}
+footer .col .row .inform h4{
+  margin: 0;
+}
+footer .col .row .inform p{
+  margin: 0;
+  padding-top: 10px;
+  color: #9f9999;
+  font-size: 15px
+}
+/* Col Number 3 */
+
+/* Col Number 4 */
+footer .col ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .col ul li{
+  padding: 15px 15px 15px 0;
+  border-bottom: 1px solid #9c9090;
+}
+/* Col number 4 */
+
+footer .copy{
+  color: #9f9999;
+}
+
+
+/* End Footer */
+
+/* Start Framework */
+
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .special{
+    position: relative;
+    margin:50px 0;
+  }
+  .special::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    width: 60px;
+    border-bottom: 3px solid black;
+  }
+  .lay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+/* End Framework */
