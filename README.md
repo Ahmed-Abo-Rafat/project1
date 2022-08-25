@@ -1,6 +1,5 @@
 # project1
 project from html and css and jquery
 
-## A project notes
-
-~~this is mistake~~
+## Live Site:
+  - Link: https://ahmed-abo-rafat.github.io/template4-html-css-jquery/
